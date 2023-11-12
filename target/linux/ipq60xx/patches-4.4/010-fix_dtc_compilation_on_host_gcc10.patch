@@ -1,6 +1,6 @@
 --- a/scripts/dtc/dtc-lexer.l
 +++ b/scripts/dtc/dtc-lexer.l
-@@ -38,7 +38,7 @@
+@@ -38,7 +38,7 @@ LINECOMMENT	"//".*\n
  #include "srcpos.h"
  #include "dtc-parser.tab.h"
  
@@ -10,8 +10,8 @@
  
  /* CAUTION: this will stop working if we ever use yyless() or yyunput() */
 --- a/scripts/dtc/dtc-lexer.lex.c_shipped
-+++ a/scripts/dtc/dtc-lexer.lex.c_shipped
-@@ -637,7 +637,7 @@
++++ b/scripts/dtc/dtc-lexer.lex.c_shipped
+@@ -637,7 +637,7 @@ char *yytext;
  #include "srcpos.h"
  #include "dtc-parser.tab.h"
  
@@ -20,4 +20,3 @@
  extern bool treesource_error;
  
  /* CAUTION: this will stop working if we ever use yyless() or yyunput() */
- 

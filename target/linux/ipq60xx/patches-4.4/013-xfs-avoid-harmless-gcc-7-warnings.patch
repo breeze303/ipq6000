@@ -21,8 +21,6 @@ Signed-off-by: Darrick J. Wong <darrick.wong@oracle.com>
  fs/xfs/xfs_bmap_util.c | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
 
-diff --git a/fs/xfs/xfs_bmap_util.c b/fs/xfs/xfs_bmap_util.c
-index 9e3cc2146d5b..7493a64f5b99 100644
 --- a/fs/xfs/xfs_bmap_util.c
 +++ b/fs/xfs/xfs_bmap_util.c
 @@ -1665,7 +1665,7 @@ xfs_swap_extents_check_format(

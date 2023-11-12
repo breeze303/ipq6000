@@ -22,11 +22,9 @@ Signed-off-by: Linus Torvalds <torvalds@linux-foundation.org>
  include/linux/pagemap.h | 1 +
  1 file changed, 1 insertion(+)
 
-diff --git a/include/linux/pagemap.h b/include/linux/pagemap.h
-index 7e3d537536122..01e84436cddfe 100644
 --- a/include/linux/pagemap.h
 +++ b/include/linux/pagemap.h
-@@ -650,6 +650,7 @@ static inline int fault_in_multipages_readable(const char __user *uaddr,
+@@ -650,6 +650,7 @@ static inline int fault_in_multipages_re
  		return __get_user(c, end);
  	}
  
